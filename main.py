@@ -1,9 +1,8 @@
-from models.skill import Skill
+from controllers.base import Controller
 
 
 def main():
-    skill_1 = Skill("Web developer")
-    print(skill_1)
+    Controller().run()
 
 
 if __name__ == "__main__":

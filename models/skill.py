@@ -16,7 +16,7 @@ class Skill:
 
     def __str__(self) -> str:
         """Used in print."""
-        return f"skill: {self.name_skill}"
+        return f"name_skill: {self.name_skill}"
     
     def __repr__(self) -> str:
         """Used in print."""

@@ -1,6 +1,7 @@
 """Define of Professional"""
 
-from skills import Skills
+from models.skill import Skill
+from models.skills import Skills
 
 
 class Professional:
@@ -32,8 +33,11 @@ class Professional:
 
     def __str__(self) -> str:
         """Used in print."""
-        return f"{self.firstname_professional} {self.surname_professional}"
+        name = f"surname_professional: {self.surname_professional}\n"
+        name += f"firstname_professional: {self.firstname_professional}"
+        return name
                 
     def __repr__(self) -> str:
         """Used in print."""
         return str(self)
+    

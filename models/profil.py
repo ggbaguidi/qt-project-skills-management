@@ -1,6 +1,6 @@
 """Define of Profil"""
 
-from skills import Skills
+from models.skills import Skills
 
 
 class Profil:
@@ -29,7 +29,7 @@ class Profil:
 
     def __str__(self) -> str:
         """Used in print."""
-        return f"Name Profil: {self.name_profil}"
+        return f"name_profil: {self.name_profil}"
     
     def __repr__(self) -> str:
         """Used in print."""
